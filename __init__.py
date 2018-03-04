@@ -1,1 +1,2 @@
-from flask_optional_routes import *
+from optional_routes import *
+from tests import *

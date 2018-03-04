@@ -1,6 +1,6 @@
 import copy
 
-from route_branch import RouteBranch
+from . route_branch import RouteBranch
 
 
 class RouteBranchManager:

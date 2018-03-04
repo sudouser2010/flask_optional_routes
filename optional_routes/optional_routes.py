@@ -1,4 +1,4 @@
-from route_branch_manager import RouteBranchManager
+from . route_branch_manager import RouteBranchManager
 
 
 class OptionalRoutes:
