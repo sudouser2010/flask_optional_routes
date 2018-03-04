@@ -1,2 +1,2 @@
-from optional_routes import *
-from tests import *
+from . optional_routes import *
+from . tests import *

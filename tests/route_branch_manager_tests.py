@@ -1,5 +1,5 @@
-from optional_routes import OptionalRoutes
-from tests.test_cases import TEST_CASES
+from .. optional_routes import OptionalRoutes
+from . test_cases import TEST_CASES
 
 
 if __name__ == '__main__':
