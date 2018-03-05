@@ -1,7 +1,13 @@
 if __name__ == '__main__':
     from flask import Flask
-    from optional_routes import OptionalRoutes
-    # from flask_optional_routes import OptionalRoutes
+
+    try:
+        # package is installed via pip
+        from flask_optional_routes import OptionalRoutes
+    except:
+        # if just downloaded
+        from optional_routes import OptionalRoutes
+
 
     app = Flask(__name__, template_folder="html")
     optional = OptionalRoutes(app)
